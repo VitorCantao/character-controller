@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123b5f27190238a46bf96225ad9bcc95, type: 3}
+  m_Name: Default State Settings
+  m_EditorClassIdentifier: 
+  maxGroundSpeed: 8
+  maxGroundAcceleration: 30
+  maxAirSpeed: 8
+  maxAirAcceleration: 12
+  fallMultiplier: 2
+  jumpHeight: 2.8
+  coyoteJumpTimeWindow: 0.2
+  maxJumps: 2
+  maxClimbingSpeed: 3
+  maxClimbAngle: 140
+  maxClimbingAcceleration: 40
+  climbMask:
+    serializedVersion: 2
+    m_Bits: 512
+  maxSwimmingSpeed: 5
+  maxSwimmingAcceleration: 10
+  waterDrag: 1
+  submergenceOffset: 0.4
+  submergenceRange: 1
+  swimThreshold: 0.4
+  buoyancy: 1
+  waterMask:
+    serializedVersion: 2
+    m_Bits: 16
